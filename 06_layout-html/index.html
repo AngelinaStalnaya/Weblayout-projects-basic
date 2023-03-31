@@ -11,31 +11,26 @@
 <body>
   <header class="header">
     <div class="container">
-      <a href="#" class="header-logo-link">
-        <img src="./img/logo.svg" alt="Логотип Lagoona" class="header-logo">
-      </a>
-      <nav class="header-upper-nav">
-        <ul class="header-upper-line">
-          <li class="header-upper-list-item">
-            <a href="tel:+74953225448" class="header-upper-contanct-link">
+      <div class="header-block">
+        <a href="#" class="header-logo">
+          <img src="./img/logo.svg" alt="Логотип Lagoona" class="header-logo">
+        </a>
+        <a href="tel:+74953225448" class="header-contanct">
               +7 495 322-54-48
-            </a>
-          </li>
-          <li class="header-upper-list-item">
-            <a href="#" class="header-upper-login-link">
-              <svg class="header-upper-item-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path d="M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z"
-                  fill="#CC9933" />
-              </svg>
-              <p class="header-upper-login-link-descr">
-                Личный кабинет
-              </p>
-            </a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="header-bottom-nav">
+        </a>
+        <a href="#" class="header-login">
+          <svg class="header-login-svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M11.59 7.41L15.17 11H1V13H15.17L11.58 16.59L13 18L19 12L13 6L11.59 7.41ZM20 6V18H22V6H20Z"
+            fill="#CC9933" />
+          </svg>
+          <p class="header-login-descr">
+              Личный кабинет
+          </p>
+        </a>
+      </div>
+      <div class="header-nav-block">
+        <nav class="header-nav">
         <ul class="header-bottom-list">
           <li class="header-bottom-item">
             <a href="#about-us" class="header-bottom-item-link">
@@ -68,17 +63,18 @@
             </a>
           </li>
         </ul>
-      </nav>
-      <button class="btn header-btn">
+        </nav>
+        <button class="btn header-btn">
         Хочу тур
-      </button>
-      <button class="btn header-btn">
+        </button>
+        <button class="btn header-btn">
         Обратный звонок
-      </button>
+        </button>
+      </div>
     </div>
   </header>
   <main class="main">
-    <aside class="special-offers">
+    <section class="special-offers">
       <div class="container">
         <div class="special-offers-content">
           <h2 class="section-title special-offers-title">
@@ -137,7 +133,7 @@
           </ul>
         </div>
       </div>
-    </aside>
+    </section>
     <section id="about-us" class="about-us">
       <div class="container">
         <div class="about-us-content">
