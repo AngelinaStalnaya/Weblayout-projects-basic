@@ -138,6 +138,7 @@ h3 {
   color: #cc9933;
   border-radius: 10px;
   border: 1px solid #cc9933;
+  background-color: #ffffff;
 }
 
 
@@ -518,7 +519,7 @@ h3 {
 
 .accomodation-item-price {
   display: inline-block;
-  margin-right: 55px;
+  margin-right: 54px;
 }
 
 .accomodation-item-name {
@@ -536,6 +537,7 @@ h3 {
   line-height: 40px;
   color: #ffffff;
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 .accomodation-item-link-img {
