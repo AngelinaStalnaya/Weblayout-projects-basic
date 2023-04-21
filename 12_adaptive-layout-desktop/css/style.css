@@ -550,26 +550,20 @@ body {
   margin-bottom: 32px;
 }
 
-.faq__item {
-  width: 1770px;
-  height: 112px;
-}
-
-.faq__item_link:first-child {
-  border-top: 1px solid var(--grey-light);
-}
-
-.faq__item_link {
+.faq__link {
   width: 1770px;
   height: 112px;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid var(--grey-light);
-  border-top: 1px solid transparent;
+  border-top: 1px solid var(--grey-light);
   transition: border-color 0.3s ease-in-out, fill 0.3s ease-in-out;
 }
 
-.faq__item_title {
+.faq__link:last-child {
+  border-bottom: 1px solid var(--grey-light);
+}
+
+.faq__link_title {
   display: inline-block;
   transition: color 0.3s ease-in-out;
 }
@@ -580,56 +574,70 @@ body {
   height: 50px;
 }
 
-.faq__item_svg {
+.faq__link_svg {
   width: 50px;
   height: 50px;
 }
 
-.faq__item_svg ellipse {
+.faq__link_svg ellipse {
   fill: var(--grey-light);
   transition: fill 0.3s ease-in-out;
 }
 
-.faq__item_svg path {
+.faq__link_svg path {
   fill: var(--black-basic);
   transition: fill 0.3s ease-in-out, transform 0.3s ease-in-out, transform-origin 0.3s ease-in-out;
 }
 
-.faq__item_link:focus,
-.faq__item_link:hover {
+.faq__link:focus,
+.faq__link:hover {
   border-color: var(--orange-basic);
 }
 
-.faq__item_link:focus .faq__item_title,
-.faq__item_link:hover .faq__item_title {
+.faq__link:focus + .faq__link,
+.faq__link:hover + .faq__link {
+  border-color: var(--orange-basic);
+}
+
+.faq__link:focus + .faq__link:last-child,
+.faq__link:hover + .faq__link:last-child {
+  border-bottom-color: var(--grey-light);
+}
+
+.faq__link:focus .faq__link_title,
+.faq__link:hover .faq__link_title {
   color: var(--orange-basic);
 }
 
-.faq__item_link:focus .faq__item_svg ellipse,
-.faq__item_link:hover .faq__item_svg ellipse {
+.faq__link:focus .faq__link_svg ellipse,
+.faq__link:hover .faq__link_svg ellipse {
   fill: var(--orange-basic);
 }
 
-.faq__item_link:focus .faq__item_svg path,
-.faq__item_link:hover .faq__item_svg path {
+.faq__link:focus .faq__link_svg path,
+.faq__link:hover .faq__link_svg path {
   fill: var(--white-basic);
   transform-origin: 50% 50%;
   transform: rotate(0deg);
 }
 
-.faq__item_link:active {
-  border-color: var(--grey-basic);
+.faq__link:active {
+  border-color: var(--grey-light);
 }
 
-.faq__item_link:active .faq__item_title {
+.faq__link:active + .faq__link {
+  border-color: var(--grey-light);
+}
+
+.faq__link:active .faq__link_title {
   color: var(--black-basic);
 }
 
-.faq__item_link:active .faq__item_svg ellipse {
+.faq__link:active .faq__link_svg ellipse {
   fill: var(--grey-light);
 }
 
-.faq__item_link:active .faq__item_svg path {
+.faq__link:active .faq__link_svg path {
   fill: var(--black-basic);
   transform-origin: 50% 50%;
   transform: rotate(45deg);
@@ -664,23 +672,24 @@ body {
   fill: var(--white-basic);
 }
 
+.footer__nav {
+  height: 252px;
+  margin-bottom: 90px;
+}
+
 .footer__list {
   flex-direction: column;
   align-items: flex-start;
+  text-align: flex-start;
   padding: 0;
   margin: 0;
-  margin-bottom: 90px;
-  gap: 0;
-}
-
-.footer__item {
-  color: var(--grey-light);
-  gap: 0;
-  line-height: 36px;
+  gap: 14px;
 }
 
 .footer__link {
-  height: 36px;
+  text-align: top;
+  color: var(--grey-light);
+  line-height: 36px;
   transition: color 0.3s ease-in-out;
 }
 
