@@ -787,15 +787,16 @@ body {
   margin-bottom: 32px;
 }
 
+.form__button {
+  text-align: center;
+}
+
 .form__btn {
   width: 269px;
   height: 58px;
   padding: 19px 52px;
   background-color: var(--orange-basic);
   color: var(--white-basic);
-  margin-left: calc((570px - 269px) / 2);
-  margin-right: calc((570px - 269px) / 2);
-  ;
   transition: background-color 0.3s ease-in-out;
 }
 
