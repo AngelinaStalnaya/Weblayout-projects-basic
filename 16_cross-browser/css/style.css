@@ -679,6 +679,7 @@ body {
 .tabs__nav_btn {
   border: none;
   background-color: transparent;
+  color: var(--black-basic);
 }
 
 .tabs__item {
@@ -785,32 +786,32 @@ body {
   transition: fill 0.3s ease-in-out, transform 0.3s ease-in-out, transform-origin 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-transform-origin 0.3s ease-in-out;
 }
 
-.faq__accordion_item:focus,
+.faq__accordion_item:focus-within,
 .faq__accordion_item:hover {
   border-color: var(--orange-basic);
 }
 
-.faq__accordion_item:focus+.faq__accordion_item,
+.faq__accordion_item:focus-within+.faq__accordion_item,
 .faq__accordion_item:hover+.faq__accordion_item {
   border-color: var(--orange-basic);
 }
 
-.faq__accordion_item:focus+.faq__accordion_item:last-child,
+.faq__accordion_item:focus-within+.faq__accordion_item:last-child,
 .faq__accordion_item:hover+.faq__accordion_item:last-child {
   border-bottom-color: var(--grey-light);
 }
 
-.faq__accordion_item:focus .faq__button_title,
+.faq__accordion_item:focus-within .faq__button_title,
 .faq__accordion_item:hover .faq__button_title {
   color: var(--orange-basic);
 }
 
-.faq__accordion_item:focus .faq__button_svg ellipse,
+.faq__accordion_item:focus-within .faq__button_svg ellipse,
 .faq__accordion_item:hover .faq__button_svg ellipse {
   fill: var(--orange-basic);
 }
 
-.faq__accordion_item:focus .faq__button_svg path,
+.faq__accordion_item:focus-within .faq__button_svg path,
 .faq__accordion_item:hover .faq__button_svg path {
   fill: var(--white-basic);
   -webkit-transform-origin: 50% 50%;
