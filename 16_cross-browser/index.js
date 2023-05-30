@@ -1,4 +1,4 @@
-//  лупа
+ //  лупа
 
 let magnifierClose = document.querySelector('.search-close__btn');
 let magnifierOpen = document.querySelector('.header__btn');
@@ -77,9 +77,11 @@ tabsBtn.forEach(function (element) {
 
 // аккордеон
 
+let items = document.querySelectorAll('.faq__accordion_item');
+
 new Accordion('.faq__accordion', {
   elementClass: 'faq__accordion_item',
   triggerClass: 'accordion__btn',
   panelClass: 'faq__accordion_content',
   activeClass: 'faq__accordion_item--active',
-});
+})
