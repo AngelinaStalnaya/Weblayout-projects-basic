@@ -1,0 +1,307 @@
+@media (max-width: 1399.98px) {
+
+  /* 1200-1440 xxl */
+  .container {
+    padding: 0 100px;
+  }
+
+  .advantages__title {
+    width: 100%;
+  }
+
+  .advantages__descr {
+    width: 100%;
+  }
+
+  .item_bottom_svg {
+    margin-right: 20px;
+  }
+
+  .speakers__container {
+    padding: 73px 100px;
+  }
+
+  .courses__item_descr {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 991.98px) {
+
+  /* 768-992 lg */
+  .container {
+    padding: 0 39px;
+  }
+
+  /* .section__offset {
+    margin-bottom: 78px;
+  } */
+
+  .hero__title {
+    font-size: 50px;
+    margin-bottom: 17px;
+  }
+
+  .hero__item_right {
+    margin: 116px 0 149px;
+  }
+
+  .advantaged__item_top-right {
+    padding-left: 10px;
+  }
+
+  .advantages__item_bottom {
+    flex-direction: column;
+  }
+
+  .item_bottom_svg {
+    margin-bottom: 12px;
+  }
+
+  .item_bottom__decr {
+    width: 95%;
+  }
+
+  .advantages__item_bottom {
+    align-items: flex-start;
+  }
+
+  .speakers__container {
+    padding: 70px 39px 28px;
+  }
+
+  .speakers__item {
+    padding: 0;
+    margin-bottom: 21px;
+  }
+
+  .speakers__item:nth-child(2),
+  .speakers__item:last-child {
+    padding-left: 15px;
+  }
+
+  .courses__title {
+    margin-bottom: 23px;
+  }
+
+  .courses__item_timing {
+    margin-top: 13px;
+    margin-left: calc(100% - 120px);
+  }
+
+  .courses__item_img {
+    margin-bottom: 27px;
+  }
+
+  .courses__item_descr {
+    min-height: 192px;
+    margin-bottom: 29px;
+  }
+
+  .courses__btn {
+    width: 195px;
+  }
+}
+
+@media (max-width: 767.98px) {
+
+  /* 576- 768 md */
+  .container {
+    padding: 0 33px;
+  }
+
+  .header__container {
+    flex-direction: column;
+    padding: 30px 33px;
+  }
+
+  .header__logo {
+    margin-bottom: 30px;
+  }
+
+  .hero__item_left {
+    padding: 78px 0 135px;
+  }
+
+  .hero__item_right {
+    visibility: hidden;
+  }
+
+  .section__hero {
+    margin-bottom: 0px;
+  }
+
+  .advantages__container {
+    padding: 80px 33px 35px;
+  }
+
+  .advantaged__item_top-left {
+    align-items: flex-start;
+  }
+
+  .advantages__title {
+    margin-bottom: 18px;
+  }
+
+  .item_bottom_svg {
+    margin-bottom: 9px;
+  }
+
+  .section__advantages {
+    margin-bottom: 0;
+  }
+
+  .speakers__container {
+    padding: 75px 33px 29px;
+  }
+
+  .courses__item_title {
+    line-height: 130%;
+    margin-right: 15px;
+  }
+
+  .courses__item_descr {
+    min-height: 269px;
+  }
+
+  .courses__btn {
+    width: 180px;
+  }
+
+  .courses__item_title-last {
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  /* от 0 до 576  sm*/
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .section__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .header__nav {
+    align-self: flex-start;
+  }
+
+  .header__container {
+    padding: 25px 15px;
+  }
+
+  .header__logo {
+    margin-bottom: 25px;
+  }
+
+  .hero__item_left {
+    padding: 50px 0;
+  }
+
+  .hero__title {
+    font-size: 30px;
+    margin-bottom: 6px;
+  }
+
+  .hero__descr {
+    font-size: 15px;
+    line-height: 140%;
+    margin-bottom: 44px;
+  }
+
+  .hero__btn {
+    width: 213px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .hero__item_right {
+    display: none;
+  }
+
+  .advantaged__item_top-left {
+    display: none;
+  }
+
+  .advantages__container {
+    padding: 50px 15px 25px;
+  }
+
+  .advantaged__item_top-right,
+  .advantages__item_bottom:nth-child(2),
+  .advantages__item_bottom:nth-child(3) {
+    padding: 0;
+  }
+
+  .advantages__title {
+    margin-bottom: 4px;
+  }
+
+  .advantages__item_bottom {
+    flex-direction: row;
+    padding: 0;
+    align-items: flex-start;
+    margin-bottom: 27px;
+  }
+
+  .item_bottom_svg {
+    margin: 0;
+    width: 80px;
+    margin-right: 30px;
+  }
+
+  .item_bottom__decr {
+    width: 62%;
+  }
+
+  .speakers__container {
+    padding: 44px 15px 22px;
+  }
+
+  .section__speakers {
+    margin-bottom: 45px;
+  }
+
+  .speakers__item:nth-child(2),
+  .speakers__item:last-child,
+  .speakers__item:nth-child(3) {
+    padding: 0;
+  }
+
+  .speakers__item {
+    margin-bottom: 23px;
+  }
+
+  .courses__item {
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .courses__item_timing {
+    margin-left: calc(100% - 105px);
+  }
+
+  .courses__item_title {
+    margin-right: 70px;
+  }
+
+  .courses__btn {
+    width: 195px;
+  }
+
+  .courses__list {
+    margin-bottom: 0;
+  }
+
+  .courses__item_last .courses__item_descr {
+    margin-bottom: 46px;
+  }
+
+  .section__courses {
+    margin-bottom: 22px;
+  }
+}
